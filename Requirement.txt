@@ -1,0 +1,63 @@
+Project Overview
+===============
+
+~ Aspect ~
+- Logo [Done]
+- Web Template
+- Design Concept
+- Web Structure
+- CSS
+
+- Responsive
+- Design Suitability
+- Navigation Link
+- Drop Down Menu
+- Slider Image
+
+- Form Component
+- Form Validation
+- Compatibility
+- Consistency
+
+~ Requirement ~
+Frawlsalla -> Fighting Game
+
+1. Logo (Layer jangan di merge di Photoshop) [Done]
+2. Homepage Blueprint (Layer jangan di merge jg harusnya)
+|-> Harus ada header, navigation, content, dan footer.
+3. Screenshot gameplay
+4. Events
+5. Characters
+6. ETC
+7. Bahasa Inggris / Indonesia (Gaboleh 22nya)
+8. Css box positioning concept
+9. Gaboleh internal / inlince CSS
+10. Responsive
+11. Organize files pake subdirectory
+12. References
+13. jQuery 3.5.1
+
+~ Pages ~
+- Home Page
+|-> Informasi tentang game, dan fitur.
+|-> Frawlsalla events highlight (Pake image slider)
+
+- Screenshot Page
+|-> Screenshot game
+
+- Events Page
+|-> Event Title
+|-> Event Image
+|-> Event Description
+
+- Characters Page
+|-> Characters Image and Name
+
+- Play Now
+|-> Registration
+|-> Name, Email, Password, Gender, Customer Terms & Conditions.
+|-> 5 Kinds of Form Components & Validation (Javascript) no regular expression
+
+Referensi website
+https://www.brawlhalla.com/
+https://www.ternakuang.id/
