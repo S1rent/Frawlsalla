@@ -165,3 +165,11 @@ footer h3 {
 .custom-separator {
     height: 2px;
 }
+
+@media only screen and (max-width: 799px) {
+    #header-navbar-menu-list div {
+        color: white;
+        margin: 0 20px;
+        padding: 15px 0;
+    }
+}
