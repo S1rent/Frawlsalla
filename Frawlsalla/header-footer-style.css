@@ -6,12 +6,21 @@ html, body {
     min-width: 300px !important;
 }
 
+a {
+    text-decoration: none;
+    color: white;
+}
+
 header {
     position: fixed;
     top: 0;
     left: 0; 
     width: 100%;
+<<<<<<< HEAD
     z-index: 1000;
+=======
+    background-color: black;
+>>>>>>> 45c615c9507fc03287a728b6f659658e3243ae50
 }
 
 #header-navbar {
@@ -19,7 +28,6 @@ header {
     justify-content: space-between;
     align-items: center;
     transition: 0.6s;
-    background-color: black;
     color: #eeeeee;
     overflow: hidden;
     height: auto;
@@ -32,18 +40,82 @@ header {
     padding: 30px;
     margin-right: 20px;
     border-radius: 10px;
-    border: 2px solid hsla(0,0%,100%,.35);
+    border: 4px solid hsla(0,0%,100%,.35);
     cursor: pointer;
     transition: 0.3s;
 }
 
 .header-navbar-menu button:hover {
-    border: 2px solid white;
+    border: 4px solid white;
+}
+
+.header-navbar-menu button:focus {
+    outline: none;
+}
+
+#header-navbar-menu-list {
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    opacity: 0;
+    height: 0;
+    transition: 0.2s ease-out;
+    font-weight: 800;
+    font-size: large;
+}
+
+#header-navbar-menu-list div {
+    color: white;
+    margin: 0 50px;
+    padding: 15px 0;
+}
+
+#header-navbar-dropdown-menu span {
+    width: 100% !important;
+}
+
+#header-navbar-dropdown-menu {
+    text-align: center;
+    left: 0;
+    transition: all .5s ease;
+    cursor: pointer;
+}
+
+#header-navbar-dropdown-menu ul {
+    position: absolute;
+    color: white;
+    list-style-type: none;
+    padding: 0;
+    height: 0;
+    opacity: 0;
+    transition: all .5s ease;
+    width: 200px;
+    padding: 0;
+    margin: 0;
+    top: 100%;
+    text-align: left;
+}
+
+#header-navbar-dropdown-menu:hover ul {
+    opacity: 1;
+    transform: translateY(0);
+    background-color:black;
+    height: auto;
+    margin-left: 0;
+}
+
+#header-navbar-dropdown-menu li {
+    padding: 10px 10px;
 }
 
 #icn-logo {
     width: 200px;
     height: 120px;
+    margin-left: 55px;
+}
+
+#first-menu-item {
+    padding-left: 0 !important;
 }
 
 .footer-left {
@@ -93,6 +165,7 @@ footer h3 {
     background: linear-gradient(to top right, #fff32a 10%, #f2400d 70%);
 }
 
+<<<<<<< HEAD
 .content{
     margin: 10%;
     display: flex;
@@ -207,3 +280,16 @@ footer h3 {
         margin:0px;
         font-size: 20px;
     }
+=======
+.custom-separator {
+    height: 2px;
+}
+
+@media only screen and (max-width: 799px) {
+    #header-navbar-menu-list div {
+        color: white;
+        margin: 0 20px;
+        padding: 15px 0;
+    }
+}
+>>>>>>> 45c615c9507fc03287a728b6f659658e3243ae50
