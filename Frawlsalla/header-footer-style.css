@@ -1,4 +1,5 @@
-html, body {
+html,
+body {
     padding: 0;
     margin: 0;
     font-family: 'Quicksand', sans-serif;
@@ -14,13 +15,10 @@ a {
 header {
     position: fixed;
     top: 0;
-    left: 0; 
+    left: 0;
     width: 100%;
-<<<<<<< HEAD
     z-index: 1000;
-=======
     background-color: black;
->>>>>>> 45c615c9507fc03287a728b6f659658e3243ae50
 }
 
 #header-navbar {
@@ -40,7 +38,7 @@ header {
     padding: 30px;
     margin-right: 20px;
     border-radius: 10px;
-    border: 4px solid hsla(0,0%,100%,.35);
+    border: 4px solid hsla(0, 0%, 100%, .35);
     cursor: pointer;
     transition: 0.3s;
 }
@@ -99,7 +97,7 @@ header {
 #header-navbar-dropdown-menu:hover ul {
     opacity: 1;
     transform: translateY(0);
-    background-color:black;
+    background-color: black;
     height: auto;
     margin-left: 0;
 }
@@ -149,7 +147,7 @@ footer {
     justify-content: center;
 }
 
-footer h3 { 
+footer h3 {
     text-align: center;
 }
 
@@ -165,14 +163,13 @@ footer h3 {
     background: linear-gradient(to top right, #fff32a 10%, #f2400d 70%);
 }
 
-<<<<<<< HEAD
-.content{
+.content {
     margin: 10%;
     display: flex;
     flex-direction: column;
 }
 
-.Content-1-txt{
+.Content-1-txt {
     flex: auto;
     align-items: center;
     display: flex;
@@ -181,56 +178,51 @@ footer h3 {
     text-align: center;
 }
 
-.Content-1-txt h1{
-    margin:0px;
+.Content-1-txt h1 {
+    margin: 0px;
     font-size: 70px;
 }
 
-.Content-1-txt h3{
-    margin:0px;
+.Content-1-txt h3 {
+    margin: 0px;
     font-size: 30px;
 }
 
-.sub-character{
+.sub-character {
     background-color: #000000;
     color: white;
     display: flex;
     flex-direction: column;
-    align-items: center; 
+    align-items: center;
     border-radius: 30px;
     box-shadow: 20px 20px 50px rgba(0, 0, 0, 0.5);
     transition: 0.5s;
     transform: translateY(100px);
     cursor: pointer;
-    margin:0px 15px;
-
-    /* width:180px;
-    float:left; */
+    margin: 0px 15px;
 }
 
-.sub-character img{
+.sub-character img {
     width: 100%;
     height: auto;
 }
 
-
-.character{
+.character {
     padding: 0 5px;
     float: left;
     width: 19%;
     margin: 70px 0px;
-  }
+}
 
-.sub-character:hover{
+.sub-character:hover {
     transform: translateY(0px);
 }
 
-@media only screen and (max-width: 800px){
-    .character{
+@media only screen and (max-width: 800px) {
+    .character {
         width: 30%;
     }
-
-    .Content-1-txt{
+    .Content-1-txt {
         flex: auto;
         align-items: center;
         display: flex;
@@ -240,13 +232,12 @@ footer h3 {
     }
 }
 
-@media only screen and (max-width: 600px){
-    .character{
+@media only screen and (max-width: 600px) {
+    .character {
         width: 40%;
         padding-left: 30px;
     }
-
-    .Content-1-txt{
+    .Content-1-txt {
         flex: auto;
         align-items: center;
         display: flex;
@@ -256,13 +247,12 @@ footer h3 {
     }
 }
 
-@media only screen and (max-width: 400px){
-    .character{
+@media only screen and (max-width: 400px) {
+    .character {
         width: 80%;
         padding-left: 30px;
     }
-
-    .Content-1-txt{
+    .Content-1-txt {
         flex: auto;
         align-items: center;
         display: flex;
@@ -270,19 +260,17 @@ footer h3 {
         margin: 40% 10% 0px 10%;
         text-align: center;
     }
-
-    .Content-1-txt h1{
-        margin:0px;
+    .Content-1-txt h1 {
+        margin: 0px;
         font-size: 40px;
     }
-    
-    .Content-1-txt h3{
-        margin:0px;
+    .Content-1-txt h3 {
+        margin: 0px;
         font-size: 20px;
     }
-=======
-.custom-separator {
-    height: 2px;
+    .custom-separator {
+        height: 2px;
+    }
 }
 
 @media only screen and (max-width: 799px) {
@@ -292,4 +280,3 @@ footer h3 {
         padding: 15px 0;
     }
 }
->>>>>>> 45c615c9507fc03287a728b6f659658e3243ae50
