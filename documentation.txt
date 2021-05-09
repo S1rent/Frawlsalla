@@ -2,3 +2,7 @@
 ==========
 |-> Philip, Membuat Header & Footer
 |-> Philip, Membuat Template Yang Dipakai Untuk Semua Page
+
+9 Mei 2021
+==========
+|-> Philip, Fix styling css error (karena conflict)

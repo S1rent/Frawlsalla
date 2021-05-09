@@ -166,10 +166,10 @@ footer h3 {
 main {  
     padding: 0;
     margin: 0; 
-    background-image: url(Assets/bg-01.png), url(Assets/bg-01.png);
-	background-position: right top, right top;
+    background-image: url(Assets/bg-01.png), url(Assets/bg-01.png) , url(Assets/bg-01.png), url(Assets/bg-01.png) , url(Assets/bg-01.png);
+	background-position: right top, right top, right top, right top, right top;
     background-repeat: no-repeat;
-    background-position-y: 0vh, 200vh;
+    background-position-y: 0vh, 200vh, 400vh, 600vh, 800vh;
 }
 
 .content {
