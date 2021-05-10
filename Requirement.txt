@@ -50,8 +50,8 @@ Frawlsalla -> Fighting Game
 |-> Event Image
 |-> Event Description
 
-- Characters Page
-|-> Characters Image and Name
+- Characters Page [Done]
+|-> Characters Image and Name [Done]
 
 - Play Now
 |-> Registration

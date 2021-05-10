@@ -1,194 +1,196 @@
 <!DOCTYPE html>
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link rel="stylesheet" href="CSS/header-footer-style.css">
+        <link rel="stylesheet" href="CSS/character-style.css">
 
-    <link rel="stylesheet" href="header-footer-style.css">
-    <link rel="stylesheet" href="character-style.css">
-    <link rel="preconnect" href="https://fonts.gstatic.com">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+        <script src="JS/header.js"></script>
 
-    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js" type="text/javascript"></script>
-    <script src="scroll.js"></script>
-    <script src="article.js"></script>
-    <script src="header.js"></script>
+        <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+        <title>Frawlsalla</title>
+    </head>
 
-    <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
-    <title>Frawlsalla</title>
-</head>
-
-<body>
-    <header>
-        <nav id="header-navbar">
-            <div></div>
-            <a class="logo" href="index.html"><img id="icn-logo" src="Assets/icn-logo.png"></a>
-            <div class="header-navbar-menu">
-                <button onclick="toggleMenu()"></button>
-            </div>
-        </nav>
-        <div class="gradient-background custom-separator"></div>
-        <nav id="header-navbar-menu-list">
-            <div id="first-menu-item"><a href="index.html">Home</a></div>
-            <div id="header-navbar-dropdown-menu">
-                <span>Frawlsalla</span>
-                <ul>
-                    <li><a href="screenshots.html">Screenshots</a></li>
-                    <li><a href="event.html">Events</a></li>
-                    <li><a href="characters.html">Characters</a></li>
-                </ul>
-            </div>
-            <div><a href="register.html">Play Now</a></div>
-        </nav>
-    </header>
-
-    <main>
-        <div class="content">
-            <div class="characters-content">
-                <div class="Content-1-txt">
-                    <h3>Choose your</h3>
-                    <h1>Character</h1>
-                    <p> Experience the endless adventure with more than 10 characters that you can play in this game. Find your best characters with us that match your playstyle. Feel your adventure in Frawlsalla</p>
+    <body>
+        <header>
+            <nav id="header-navbar">
+                <div></div>
+                <a class="logo" href="index.html"><img id="icn-logo" src="Assets/icn-logo.png"></a>
+                <div class="header-navbar-menu">
+                    <button onclick="toggleMenu()"></button>
                 </div>
-    
-                <div class="characters-content-grid">
-                    <div class="character">
-                        <div class="sub-character">
-                            <img src="./Character Image/Lin-Fei.png" alt="Lin-Fei" width="200px">
-                            <p>Lin-Fei</p>
-                        </div>
+            </nav>
+            <div class="gradient-background custom-separator"></div>
+            <nav id="header-navbar-menu-list">
+                <div id="first-menu-item"><a href="index.html">Home</a></div>
+                <div id="header-navbar-dropdown-menu">
+                    <span>Frawlsalla</span>
+                    <ul>
+                        <li><a href="screenshots.html">Screenshots</a></li>
+                        <li><a href="event.html">Events</a></li>
+                        <li><a href="characters.html">Characters</a></li>
+                    </ul>
+                </div>
+                <div><a href="register.html">Play Now</a></div>
+            </nav>
+        </header>
+
+        <main>
+            <div class="content">
+                <div class="characters-content">
+                    <div class="Content-1-txt">
+                        <h3>Choose your</h3>
+                        <h1>Character</h1>
+                        <p> Experience the endless adventure with more than 10 characters that you can play in this game. Find your best characters with us that match your playstyle. Feel your adventure in Frawlsalla</p>
                     </div>
         
-                    <div class="character">
-                        <div class="sub-character">
-                            <img src="./Character Image/Barraza.png" alt="Barraza" width="200px">
-                            <p>Barraza</p>
+                    <div class="characters-content-grid">
+                        <div class="character">
+                            <div class="sub-character">
+                                <img src="Assets/Characters/Lin-Fei.png" alt="Lin-Fei" width="200px">
+                                <p>Lin-Fei</p>
+                            </div>
                         </div>
-                    </div>
-    
-                    <div class="character">
-                        <div class="sub-character">
-                            <img src="./Character Image/Ada.png" alt="Ada" width="200px">
-                            <p>Ada</p>
+            
+                        <div class="character">
+                            <div class="sub-character">
+                                <img src="Assets/Characters/Barraza.png" alt="Barraza" width="200px">
+                                <p>Barraza</p>
+                            </div>
                         </div>
-                    </div>
-    
-                    <div class="character">
-                        <div class="sub-character">
-                            <img src="./Character Image/Hattori.png" alt="Haittori" width="200px">
-                            <p>Haittori</p>
+        
+                        <div class="character">
+                            <div class="sub-character">
+                                <img src="Assets/Characters/Ada.png" alt="Ada" width="200px">
+                                <p>Ada</p>
+                            </div>
                         </div>
-                    </div>
-    
-                    <div class="character">
-                        <div class="sub-character">
-                            <img src="./Character Image/Lucien.png" alt="Lucien" width="200px">
-                            <p>Lucien</p>
+        
+                        <div class="character">
+                            <div class="sub-character">
+                                <img src="Assets/Characters/Hattori.png" alt="Haittori" width="200px">
+                                <p>Haittori</p>
+                            </div>
                         </div>
-                    </div>
-    
-                    <div class="character">
-                        <div class="sub-character">
-                            <img src="./Character Image/Ulgrim.png" alt="Ulgrim" width="200px">
-                            <p>Ulgrim</p>
+        
+                        <div class="character">
+                            <div class="sub-character">
+                                <img src="Assets/Characters/Lucien.png" alt="Lucien" width="200px">
+                                <p>Lucien</p>
+                            </div>
                         </div>
-                    </div>
-    
-                    <div class="character">
-                        <div class="sub-character">
-                            <img src="./Character Image/Val.png" alt="Val" width="200px">
-                            <p>Val</p>
+        
+                        <div class="character">
+                            <div class="sub-character">
+                                <img src="Assets/Characters/Ulgrim.png" alt="Ulgrim" width="200px">
+                                <p>Ulgrim</p>
+                            </div>
                         </div>
-                    </div>
-    
-                    <div class="character">
-                        <div class="sub-character">
-                            <img src="./Character Image/Azoth.png" alt="Azoth" width="200px">
-                            <p>Azoth</p>
+        
+                        <div class="character">
+                            <div class="sub-character">
+                                <img src="Assets/Characters/Val.png" alt="Val" width="200px">
+                                <p>Val</p>
+                            </div>
                         </div>
-                    </div>
-    
-                    <div class="character">
-                        <div class="sub-character">
-                            <img src="./Character Image/Wu-Shang.png" alt="Wu-Shang" width="200px">
-                            <p>Wu-Shang</p>
+        
+                        <div class="character">
+                            <div class="sub-character">
+                                <img src="Assets/Characters/Azoth.png" alt="Azoth" width="200px">
+                                <p>Azoth</p>
+                            </div>
                         </div>
-                    </div>
-    
-                    <div class="character">
-                        <div class="sub-character">
-                            <img src="./Character Image/Nai.png" alt="Nai" width="200px">
-                            <p>Nai</p>
+        
+                        <div class="character">
+                            <div class="sub-character">
+                                <img src="Assets/Characters/Wu-Shang.png" alt="Wu-Shang" width="200px">
+                                <p>Wu-Shang</p>
+                            </div>
                         </div>
-                    </div>
-    
-                    <div class="character">
-                        <div class="sub-character">
-                            <img src="./Character Image/Jaeyun_WebSplash.jpg" alt="Jaeyun" width="200px">
-                            <p>Jaeyun</p>
+        
+                        <div class="character">
+                            <div class="sub-character">
+                                <img src="Assets/Characters/Nai.png" alt="Nai" width="200px">
+                                <p>Nai</p>
+                            </div>
                         </div>
-                    </div>
-    
-                    <div class="character">
-                        <div class="sub-character">
-                            <img src="./Character Image/Kaya.png" alt="Kaya" width="200px">
-                            <p>Kaya</p>
+        
+                        <div class="character">
+                            <div class="sub-character">
+                                <img src="Assets/Characters/Jaeyun_WebSplash.jpg" alt="Jaeyun" width="200px">
+                                <p>Jaeyun</p>
+                            </div>
                         </div>
-                    </div>
-    
-                    <div class="character">
-                        <div class="sub-character">
-                            <img src="./Character Image/Artemis.png" alt="Artemis" width="200px">
-                            <div class="character-name">
-                                <p>Artemis</p>
+        
+                        <div class="character">
+                            <div class="sub-character">
+                                <img src="Assets/Characters/Kaya.png" alt="Kaya" width="200px">
+                                <p>Kaya</p>
+                            </div>
+                        </div>
+        
+                        <div class="character">
+                            <div class="sub-character">
+                                <img src="Assets/Characters/Artemis.png" alt="Artemis" width="200px">
+                                <div class="character-name">
+                                    <p>Artemis</p>
+                                </div>
+                            </div>
+                        </div>
+        
+                        <div class="character">
+                            <div class="sub-character">
+                                <img src="Assets/Characters/Fait.png" alt="Fait" width="200px">
+                                <p>Fait</p>
+                            </div>
+                        </div>
+        
+                        <div class="character">
+                            <div class="sub-character">
+                                <img src="Assets/Characters/LegendSPLASHCard_Volkov.jpg" alt="Volkov" width="200px">
+                                <p>Volkov</p>
                             </div>
                         </div>
                     </div>
-    
-                    <div class="character">
-                        <div class="sub-character">
-                            <img src="./Character Image/Fait.png" alt="Fait" width="200px">
-                            <p>Fait</p>
-                        </div>
-                    </div>
-    
-                    <div class="character">
-                        <div class="sub-character">
-                            <img src="./Character Image/LegendSPLASHCard_Volkov.jpg" alt="Volkov" width="200px">
-                            <p>Volkov</p>
-                        </div>
-                    </div>
                 </div>
             </div>
-        </div>
-    </main>
+        </main>
 
-    <footer>
-        <h3>For more information</h3>
-        <div class="footer-social-media">
-            <a href="https://www.instagram.com/brawlhallafr/" target="_blank">
-                <img id="footer-image-icon" src="Assets/instagram.png">
-            </a>
-            <a href="https://twitter.com/brawlhalla" target="_blank">
-                <img id="footer-image-icon" src="Assets/twitter.png">
-            </a>
-            <a href="https://store.steampowered.com/app/291550/Brawlhalla/" target="_blank">
-                <img id="footer-image-icon" src="Assets/steam.png">
-            </a>
-            <a href="https://www.facebook.com/Brawlhalla/" target="_blank">
-                <img id="footer-image-icon" src="Assets/facebook.png">
-            </a>
-            <a href="https://www.youtube.com/user/Brawlhalla" target="_blank">
-                <img id="footer-image-icon" src="Assets/youtube.png">
-            </a>
-        </div>
-        <div class="gradient-background" style="height: 2px;margin: 35px 0px;"></div>
-        <h3>2301856125 - Philip Indra Prayitno</h3>
-        <h3>2301889275 - Fernando Chai</h3>
-        <h3>© 2021 Frawlsalla | All Rights Reserved</h3>
-        <h3>Legal Privacy Policy</h3>
-    </footer>
-</body>
+        <footer>
+            <h3>For more information</h3>
+            <div class="footer-social-media">
+                <a href="https://www.instagram.com/brawlhallafr/" target="_blank">
+                    <img id="footer-image-icon" src="Assets/instagram.png">
+                </a>
+                <a href="https://twitter.com/brawlhalla" target="_blank">
+                    <img id="footer-image-icon" src="Assets/twitter.png">
+                </a>
+                <a href="https://store.steampowered.com/app/291550/Brawlhalla/" target="_blank">
+                    <img id="footer-image-icon" src="Assets/steam.png">
+                </a>
+                <a href="https://www.facebook.com/Brawlhalla/" target="_blank">
+                    <img id="footer-image-icon" src="Assets/facebook.png">
+                </a>
+                <a href="https://www.youtube.com/user/Brawlhalla" target="_blank">
+                    <img id="footer-image-icon" src="Assets/youtube.png">
+                </a>
+            </div>
+            
+            <br>
+            <div class="gradient-background custom-separator"></div>
+            <h3>Created by</h3>
+            <h3>2301856125 - Philip Indra Prayitno</h3>
+            <h3>2301857241 - Richard Aldy</h3>
+            <h3>2301889275 - Fernando Chai</h3>
 
+            <div class="gradient-background custom-separator"></div>
+            <h3>© 2021 Frawlsalla | All Rights Reserved</h3>
+            <h3>Legal Privacy Policy</h3>
+        </footer>
+    </body>
 </html>
