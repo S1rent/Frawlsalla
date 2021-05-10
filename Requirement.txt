@@ -29,13 +29,13 @@ Frawlsalla -> Fighting Game
 4. Events
 5. Characters
 6. ETC
-7. Bahasa Inggris / Indonesia (Gaboleh 22nya)
-8. Css box positioning concept
-9. Gaboleh internal / inlince CSS
+7. Bahasa Inggris / Indonesia (Gaboleh 22nya)  [DONE]
+8. Css box positioning concept  [DONE]
+9. Gaboleh internal / inlince CSS  [DONE]
 10. Responsive
-11. Organize files pake subdirectory
+11. Organize files pake subdirectory [DONE]
 12. References
-13. jQuery 3.5.1
+13. jQuery 3.5.1 [DONE]
 
 ~ Pages ~
 - Home Page
