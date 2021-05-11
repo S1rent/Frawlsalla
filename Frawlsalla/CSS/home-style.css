@@ -1,3 +1,7 @@
+main {
+    background: none !important;
+}
+
 #content-image-slider {
     width: 1024px;
     height: 576px;
@@ -90,7 +94,7 @@
 }
 
 .content-feature {
-    margin-top: 150px;
+    margin-top: 100px;
     padding: 50px;
 }
 
@@ -141,6 +145,48 @@ aside .card-wrapper {
     padding: 0px 20px;
 }
 
-main {
-    background: none !important;
+.content-top-characters {
+    text-align: center;
+    margin-top: 130px;
+}
+
+.content-top-characters h1 {
+    font-size: 50px !important;
+}
+
+.top-characters {
+    text-align: center;
+    display: flex;
+    align-content: space-around;
+    align-items: center;
+    margin: 0 auto;
+    width: 100%;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.character {
+    padding: 0 5px;
+    float: left;
+    width: 19%;
+    margin: 0;
+}
+
+.sub-character {
+    background-color: #000000;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 30px;
+    box-shadow: 20px 20px 50px rgba(0, 0, 0, 0.5);
+    transition: 0.5s;
+    transform: translateY(20px);
+    cursor: pointer;
+    margin: 0px 15px;
+}
+
+.sub-character img {
+    width: 100%;
+    height: auto;
 }

@@ -8,5 +8,9 @@
 |-> Philip, Fix styling css error (karena conflict)
 
 10 Mei 2021
-==========
+===========
 |-> Philip, Refactoring Page Directory & Code
+
+12 Mei 2021
+===========
+|-> Philip, Creating Home Page
