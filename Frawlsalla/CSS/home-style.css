@@ -1,0 +1,39 @@
+#content-image-slider {
+    width: 1024px;
+    height: 576px;
+    overflow: hidden;
+    margin: 0 auto;
+}
+
+#content-image-slider .content-slides {
+    display: block;
+    width: 6000px;
+    height: 576px;
+    margin: 0;
+    padding: 0;
+}
+
+#content-image-slider .content-slide {
+    float: left;
+    list-style-type: none;
+    width: 1024px;
+    height: 576px;
+}
+
+.blank-space {
+    height: 200px;
+}
+
+.dot {
+    height: 15px;
+    width: 15px;
+    margin: 0 2px;
+    background-color: #bbb;
+    border-radius: 50%;
+    display: inline-block;
+    transition: background-color 0.6s ease;
+}
+
+.active {
+    background-color: #717171;
+}
