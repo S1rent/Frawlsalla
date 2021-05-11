@@ -1,3 +1,4 @@
+"use strict";
 $(function() {
     var $slider = $('#content-image-slider');
     var $slideContainer = $('.content-slides', $slider);
@@ -17,7 +18,7 @@ $(function() {
                     { 'margin-left': '-=' + contentWidth }, 
                     1000, 
                     function() {
-                        for (i = 0; i < indicators.length; i++) {
+                        for (var i = 0; i < indicators.length; i++) {
                             indicators[i].className = indicators[i].className.replace(" active", "");
                         }
                         indicators[currentSlide].className += " active";
