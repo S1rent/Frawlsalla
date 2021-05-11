@@ -53,13 +53,22 @@ main {
     width: 100%;
     align-items: center;
     justify-content: space-evenly;
-    margin-top: 130px;
+    margin-top: 100px;
+    background-color: rgba(0, 0, 0, 0.9);
+    color: white;
+}
+
+.content-video video {
+    padding: 50px;
 }
 
 #trailer-video {
     width: 700px;
     height: 400px;
-    border-radius: 20px;
+}
+
+.description {
+    padding: 50px;
 }
 
 .description p {
@@ -95,7 +104,7 @@ main {
 
 .content-feature {
     margin-top: 100px;
-    padding: 50px;
+    padding: 65px;
 }
 
 aside h1 {
@@ -154,6 +163,39 @@ aside .card-wrapper {
     font-size: 50px !important;
 }
 
+.content-top-characters-title {
+    display: flex;
+    margin-bottom: 75px;
+}
+
+.content-top-characters-title h1 {
+    position: absolute;
+    margin: 0 auto;
+    width: 100%;
+}
+
+.content-top-characters-title button {
+    position: absolute;
+    margin: 0 auto;
+    right: 50px;
+    margin-top: 20px;
+    padding: 10px 20px;
+    border-radius: 10px;
+    cursor: pointer;
+    border: 2px solid black;
+    background: white;
+    font-family: 'Quicksand', sans-serif;
+    font-size: large;
+    font-weight: 800;
+    transition: 0.5s;
+    color: black;
+}
+
+.content-top-characters-title button:hover {
+    background: black;
+    color: white;
+}
+
 .top-characters {
     text-align: center;
     display: flex;
@@ -189,4 +231,59 @@ aside .card-wrapper {
 .sub-character img {
     width: 100%;
     height: auto;
+}
+
+@media only screen and (max-width: 800px) {
+    .character {
+        width: 30%;
+    }
+    .Content-1-txt {
+        flex: auto;
+        align-items: center;
+        display: flex;
+        flex-direction: column;
+        margin: 20% 20% 0px 20%;
+        text-align: center;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    .character {
+        width: 40%;
+        padding-left: 30px;
+    }
+    .Content-1-txt {
+        flex: auto;
+        align-items: center;
+        display: flex;
+        flex-direction: column;
+        margin: 25% 15% 0px 15%;
+        text-align: center;
+    }
+}
+
+@media only screen and (max-width: 400px) {
+    .character {
+        width: 80%;
+        padding-left: 30px;
+    }
+    .Content-1-txt {
+        flex: auto;
+        align-items: center;
+        display: flex;
+        flex-direction: column;
+        margin: 40% 10% 0px 10%;
+        text-align: center;
+    }
+    .Content-1-txt h1 {
+        margin: 0px;
+        font-size: 40px;
+    }
+    .Content-1-txt h3 {
+        margin: 0px;
+        font-size: 20px;
+    }
+    .custom-separator {
+        height: 2px;
+    }
 }
