@@ -237,40 +237,11 @@ aside .card-wrapper {
     height: auto;
 }
 
-@media only screen and (max-width: 800px) {
-    .character {
-        width: 30%;
-    }
-    .Content-1-txt {
-        flex: auto;
-        align-items: center;
-        display: flex;
-        flex-direction: column;
-        margin: 20% 20% 0px 20%;
-        text-align: center;
-    }
-}
-
-@media only screen and (max-width: 600px) {
-    .character {
-        width: 40%;
-        padding-left: 30px;
-    }
-    .Content-1-txt {
-        flex: auto;
-        align-items: center;
-        display: flex;
-        flex-direction: column;
-        margin: 25% 15% 0px 15%;
-        text-align: center;
-    }
-}
-
 @media only screen and (max-width: 400px) {
     .character {
         width: 80%;
-        padding-left: 30px;
     }
+
     .Content-1-txt {
         flex: auto;
         align-items: center;
@@ -279,14 +250,17 @@ aside .card-wrapper {
         margin: 40% 10% 0px 10%;
         text-align: center;
     }
+
     .Content-1-txt h1 {
         margin: 0px;
         font-size: 40px;
     }
+
     .Content-1-txt h3 {
         margin: 0px;
         font-size: 20px;
     }
+
     .custom-separator {
         height: 2px;
     }
@@ -316,6 +290,46 @@ aside .card-wrapper {
 
     .content-top-characters-title h1, .description h1 {
         font-size: 40px !important;
+    }
+
+    aside .card-wrapper {
+        min-height: 100%;
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    aside .card-wrapper div {
+        display: flex; 
+        flex-basis: calc(50% - 40px);  
+        justify-content: center;
+        flex-direction: column;
+    }
+
+    aside .card-wrapper div div {
+        display: flex;
+        justify-content: center;
+        flex-direction: row;
+    }
+
+    .quality-card img {
+        margin: 0 auto;
+    }
+
+    .quality-card {
+        margin: 20px 0px;
+    }
+
+    .quality-card img {
+        width: 150px;
+        height: 150px;
+    }
+
+    .content-feature {
+        padding: 20px;
+    }
+
+    .quality-card h2 {
+        font-size: 30px;
     }
 }
 
@@ -387,6 +401,19 @@ aside .card-wrapper {
     .content-top-characters-title h1, .description h1 {
         font-size: 40px !important;
     }
+    
+    .character {
+        width: 50%;
+    }
+
+    .Content-1-txt {
+        flex: auto;
+        align-items: center;
+        display: flex;
+        flex-direction: column;
+        margin: 20% 20% 0px 20%;
+        text-align: center;
+    }
 }
 
 @media only screen and (max-width: 600px) {
@@ -396,6 +423,30 @@ aside .card-wrapper {
 
     .description h1 {
         font-size: 40px;
+    }
+
+    .character {
+        width: 40%;
+    }
+
+    .Content-1-txt {
+        flex: auto;
+        align-items: center;
+        display: flex;
+        flex-direction: column;
+        margin: 25% 15% 0px 15%;
+        text-align: center;
+    }
+
+    aside .card-wrapper {
+        display: block;
+        width: 100%;
+    }
+
+    .quality-card {
+        width: 70%;
+        margin: 0 auto;
+        margin-bottom: 30px;
     }
 }
 
