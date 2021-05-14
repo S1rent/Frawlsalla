@@ -54,7 +54,7 @@ main {
     align-items: center;
     justify-content: space-evenly;
     margin-top: 100px;
-    background-color: rgba(0, 0, 0, 0.9);
+    background-color: black;
     color: white;
 }
 
@@ -73,13 +73,16 @@ main {
 
 .description p {
     text-align: justify;
-    font-weight: 400;
+    font-weight: 500;
     font-size: large;
+    letter-spacing: 2px;
 }
 
 .description h1 {
     font-weight: 800;
     font-size: 60px;
+    padding-top: 0;
+    margin-top: 0;
 }
 
 #play-button {
@@ -285,5 +288,13 @@ aside .card-wrapper {
     }
     .custom-separator {
         height: 2px;
+    }
+}
+
+@media only screen and (max-width: 799px) {
+    #header-navbar-menu-list div {
+        color: white;
+        margin: 0 20px;
+        padding: 15px 0;
     }
 }

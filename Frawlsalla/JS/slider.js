@@ -30,7 +30,7 @@ $(function() {
                                     indicators[i].className = indicators[i].className.replace(" active", "");
                                 }
                                 indicators[0].className += " active";
-                            }, 1000);
+                            }, 1500);
                         }
                     }
                 );
