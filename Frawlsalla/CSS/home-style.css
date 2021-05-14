@@ -175,13 +175,14 @@ aside .card-wrapper {
     position: absolute;
     margin: 0 auto;
     width: 100%;
+    min-width: 300px;
 }
 
 .content-top-characters-title button {
     position: absolute;
     margin: 0 auto;
     right: 50px;
-    margin-top: 20px;
+    margin-top: 11px;
     padding: 10px 20px;
     border-radius: 10px;
     cursor: pointer;
@@ -299,12 +300,43 @@ aside .card-wrapper {
     .description {
         padding: 50px 20px;
     }
+    
+    .content-top-characters {
+        margin-top: 50px;
+    }
+
+    .content-feature {
+        margin-top: 0px;
+    }
+
+    .content-top-characters-title button {
+        padding: 10px;
+        margin-top: 8px;
+    }
+
+    .content-top-characters-title h1, .description h1 {
+        font-size: 40px !important;
+    }
 }
 
 @media only screen and (max-width: 1110px) {
     #trailer-video {
         width: 500px;
         height: auto;
+    }
+
+    .content-top-characters-title button {
+        right: 10px;
+    }
+}
+
+@media only screen and (max-width: 1000px) {
+    .content-top-characters-title h1, .description h1 {
+        font-size: 30px !important;
+    }
+
+    .content-top-characters-title button {
+        margin-top: 0px;
     }
 }
 
@@ -331,6 +363,30 @@ aside .card-wrapper {
     .description {
         padding: 0px 20px 30px 20px;
     }
+
+    .content-top-characters-title {
+        display: block;
+    }
+
+    .content-top-characters-title button {
+        position: relative;
+        top: 60px;
+    }
+
+    .top-characters {
+        display: block;
+    }
+
+    .character {
+        float: none;
+        margin: 0 auto;
+        width: 50%;
+        padding: 20px 0px;
+    }
+
+    .content-top-characters-title h1, .description h1 {
+        font-size: 40px !important;
+    }
 }
 
 @media only screen and (max-width: 600px) {
@@ -340,5 +396,16 @@ aside .card-wrapper {
 
     .description h1 {
         font-size: 40px;
+    }
+}
+
+@media only screen and (max-width: 502px) {
+    .content-top-characters-title button {
+        top: 120px;
+        right: 0;
+    }
+
+    .content-top-characters-title {
+        margin-bottom: 120px;
     }
 }
