@@ -24,6 +24,10 @@ main {
     height: 576px;
 }
 
+.content-slide img {
+    width: 100%;
+}
+
 .blank-space {
     height: 200px;
 }
@@ -236,35 +240,6 @@ aside .card-wrapper {
     height: auto;
 }
 
-@media only screen and (max-width: 400px) {
-    .character {
-        width: 80%;
-    }
-
-    .Content-1-txt {
-        flex: auto;
-        align-items: center;
-        display: flex;
-        flex-direction: column;
-        margin: 40% 10% 0px 10%;
-        text-align: center;
-    }
-
-    .Content-1-txt h1 {
-        margin: 0px;
-        font-size: 40px;
-    }
-
-    .Content-1-txt h3 {
-        margin: 0px;
-        font-size: 20px;
-    }
-
-    .custom-separator {
-        height: 2px;
-    }
-}
-
 @media only screen and (max-width: 1210px) {
     .content-video video {
         padding: 50px 20px;
@@ -343,6 +318,22 @@ aside .card-wrapper {
     }
 }
 
+@media only screen and (max-width: 1042px) {
+    #content-image-slider .content-slide {
+        width: 724px;
+        height: auto;
+    }
+
+    #content-image-slider .content-slides {
+        height: auto;
+    }
+
+    #content-image-slider {
+        width: 724px;
+        height: auto;
+    }
+}
+
 @media only screen and (max-width: 1000px) {
     .content-top-characters-title h1, .description h1 {
         font-size: 30px !important;
@@ -416,6 +407,26 @@ aside .card-wrapper {
     }
 }
 
+@media only screen and (max-width: 744px) {
+    .content-video {
+        margin-top: 0;
+    }
+
+    #content-image-slider .content-slide {
+        width: 524px;
+        height: auto;
+    }
+
+    #content-image-slider .content-slides {
+        height: auto;
+    }
+
+    #content-image-slider {
+        width: 524px;
+        height: auto;
+    }
+}
+
 @media only screen and (max-width: 600px) {
     .description p {
        font-size: medium;
@@ -450,6 +461,22 @@ aside .card-wrapper {
     }
 }
 
+@media only screen and (max-width: 570px) {
+    #content-image-slider .content-slide {
+        width: 400px;
+        height: auto;
+    }
+
+    #content-image-slider .content-slides {
+        height: auto;
+    }
+
+    #content-image-slider {
+        width: 400px;
+        height: auto;
+    }
+}
+
 @media only screen and (max-width: 502px) {
     .content-top-characters-title button {
         top: 120px;
@@ -458,5 +485,50 @@ aside .card-wrapper {
 
     .content-top-characters-title {
         margin-bottom: 120px;
+    }
+}
+
+@media only screen and (max-width: 421px) {
+    #content-image-slider .content-slide {
+        width: 300px;
+        height: auto;
+    }
+
+    #content-image-slider .content-slides {
+        height: auto;
+    }
+
+    #content-image-slider {
+        width: 300px;
+        height: auto;
+    }
+}
+
+@media only screen and (max-width: 400px) {
+    .character {
+        width: 80%;
+    }
+
+    .Content-1-txt {
+        flex: auto;
+        align-items: center;
+        display: flex;
+        flex-direction: column;
+        margin: 40% 10% 0px 10%;
+        text-align: center;
+    }
+
+    .Content-1-txt h1 {
+        margin: 0px;
+        font-size: 40px;
+    }
+
+    .Content-1-txt h3 {
+        margin: 0px;
+        font-size: 20px;
+    }
+
+    .custom-separator {
+        height: 2px;
     }
 }

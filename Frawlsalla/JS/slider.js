@@ -1,4 +1,4 @@
-"use strict";
+'use strict';
 $(function() {
     var $slider = $('#content-image-slider');
     var $slideContainer = $('.content-slides', $slider);
@@ -14,6 +14,8 @@ $(function() {
             indicators[0].className += " active";
         }
         interval = setInterval(function() {
+            contentWidth = document.getElementsByClassName("content-slide")[0].clientWidth;
+            console.log(contentWidth)
             $slideContainer.animate(
                     { 'margin-left': '-=' + contentWidth }, 
                     1000, 
@@ -21,7 +23,11 @@ $(function() {
                         for (var i = 0; i < indicators.length; i++) {
                             indicators[i].className = indicators[i].className.replace(" active", "");
                         }
-                        indicators[currentSlide].className += " active";
+                        try {
+                            indicators[currentSlide].className += " active";
+                        }catch(err) {
+
+                        }
                         if (++currentSlide === $slides.length) {
                             setTimeout(function () {
                                 currentSlide = 1;
@@ -30,7 +36,7 @@ $(function() {
                                     indicators[i].className = indicators[i].className.replace(" active", "");
                                 }
                                 indicators[0].className += " active";
-                            }, 1500);
+                            }, 1000);
                         }
                     }
                 );
