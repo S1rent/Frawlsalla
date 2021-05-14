@@ -291,10 +291,54 @@ aside .card-wrapper {
     }
 }
 
+@media only screen and (max-width: 1210px) {
+    .content-video video {
+        padding: 50px 20px;
+    }
+
+    .description {
+        padding: 50px 20px;
+    }
+}
+
+@media only screen and (max-width: 1110px) {
+    #trailer-video {
+        width: 500px;
+        height: auto;
+    }
+}
+
+@media only screen and (max-width: 880px) {
+    #trailer-video {
+        width: 400px;
+    }
+}
+
 @media only screen and (max-width: 799px) {
-    #header-navbar-menu-list div {
-        color: white;
-        margin: 0 20px;
-        padding: 15px 0;
+    .content-video {
+        display: block;
+    }
+
+    #trailer-video {
+        width: 90%;
+    }
+
+    .content-video video {
+        padding: 20px;
+        padding-top: 50px;
+    }
+
+    .description {
+        padding: 0px 20px 30px 20px;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    .description p {
+       font-size: medium;
+    }
+
+    .description h1 {
+        font-size: 40px;
     }
 }
