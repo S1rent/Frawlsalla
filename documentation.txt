@@ -1,3 +1,8 @@
+22 Maret 2021
+=============
+|-> Richard, Membuat Logo
+|-> Philip, Mengganti Design Logo
+
 4 Mei 2021
 ==========
 |-> Philip, Membuat Header & Footer
@@ -14,3 +19,12 @@
 12 Mei 2021
 ===========
 |-> Philip, Creating Home Page
+
+14 Mei 2021
+===========
+|-> Philip, Creating Responsive Homepage
+
+17 Mei 2021
+===========
+|-> Philip, Completing Home Page
+|-> Philip, Creating Register Page
