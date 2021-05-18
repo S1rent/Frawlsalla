@@ -10,6 +10,7 @@
 
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
         <script src="JS/header.js"></script>
+        <script src="JS/popup.js"></script>
 
         <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap" rel="stylesheet">
         <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
@@ -97,7 +98,7 @@
 
                             <div class="form-checkbox">
                                 <input type="checkbox" id="agree" name="agree" value="agree" required>
-                                <label id="agree-label" for="agree">I Accept the <span id="user-agreement"><strong>user agreement</strong>.</span></label>
+                                <label id="agree-label">I Accept the <span id="user-agreement"><strong>user agreement</strong>.</span></label>
                             </div>
 
                             <div class="form-submit">
@@ -108,9 +109,67 @@
                 </form>
                 <div class="blank-space-small"></div>
             </div>
-        </main>
 
-        </button>
+            <div class="agreement-modal"></div>
+
+            <div class="agreement-modal-content">
+                <div class="agreement-modal-content-header">
+                    <button id="close-modal-button"></button>
+                    <h1>User Agreement</h1>
+                    <div class="custom-separator bg-black"></div>
+                </div>
+                <div class="agreement-modal-content-content">
+                    <textarea id="agreement" name="agreement" readonly>
+1. YOUR ACCOUNT
+1.1. To create an account and use the Frawlsalla Services, you must: 
+(i) be an at least 12 year(s) old; 
+(ii) be an emancipated minor; or 
+(iii) have valid parent or legal guardian consent to be bound by these Terms. 
+If you’re not an adult or emancipated minor, or don’t understand this section, please talk to your parents or legal guardian and ask for help. 
+If you are the parent or legal guardian of a minor who creates an account with us, you and the minor accept and agree to be bound by these Terms. 
+You are also responsible for all use of the account and compliance with these Terms by the minor, including all purchases made on the account. 
+You may not create or use an account or use any of the Frawlsalla Services on behalf of any other person or other legal entity or for a commercial purpose.
+
+1.2. You must always provide us with accurate and complete info including your real name.
+
+1.3. You can’t share your account or Login Credentials with anyone.
+You can’t sell, transfer or allow any other person to access your account or Login Credentials, or offer to do so.
+You must keep your Login Credentials secret.
+You must notify us immediately if you become aware of any breach of security, including any unauthorized account access or any loss, theft or unauthorized use or disclosure of your Login Credentials or payment info so we can take appropriate steps. You are responsible for all losses (including loss or use of Virtual Content) on your account where you have shared your Login Credentials or have failed to keep your account or Login Credentials secure.
+
+2. ACCOUNT TERMINATION
+2.1. If you break the rules, Your account can be terminated anytime.
+2.1.1. You may terminate or suspend your account at any time by contacting us at support@frawlsalla.com
+
+3. USER RULES
+3.1. You can't I troll, flame, threaten or harass people while playing Frawlsalla (If you do, we might take action such as banning your account).
+While playing Frawlsalla, you must comply with all laws, rules and regulations in the jurisdiction in which you reside. You must also comply with the acceptable use and behavioral policies that we publish from time to time on our websites, apps and games and the behavioral rules listed below (collectively the “User Rules”). The User Rules posted to our websites, apps and games or set out in this section are not meant to be exhaustive, and we reserve the right to modify them, as well as take appropriate disciplinary measures including temporary bans, account suspension or termination and deletion to protect the integrity and spirit of Frawlsalla, regardless of whether a specific behavior is listed in the User Rules as inappropriate.
+
+The following are examples of behavior that warrant disciplinary measures:
+
+Impersonating any person, business or entity, including an employee of Frawlsalla, or communicating in any way that makes it appear that the communication originates from Frawlsalla;
+Publicly posting identifying info about yourself, Frawlsalla employees, or other players;
+Harassing, stalking or threatening other players or Frawlsalla employees;
+Removing, altering or concealing any copyright, trademark, patent or other proprietary rights notice of Frawlsalla contained within the Frawlsalla Services. You also may not transmit content that violates or infringes the rights of others, including patent, trademark, trade secret, copyright, publicity, personal rights or other rights;
+Transmitting or communicating any content which we reasonably believe to be offensive to players, including language that is unlawful, harmful, threatening, abusive, harassing, defamatory, vulgar, obscene, sexually explicit, or racially, ethically, or otherwise objectionable;
+Transmitting or facilitating the transmission of any content that contains a virus, corrupted data, trojan horse, bot keystroke logger, worm, time bomb, cancelbot or other computer programming routines that are intended to and/or actually damage, detrimentally interfere with, surreptitiously intercept or mine, scrape or expropriate any system, data or personal info;
+Avoiding, bypassing, removing, deactivating, impairing, descrambling or otherwise circumventing any technological measure implemented by Frawlsalla or any third party to protect the Frawlsalla Services;
+Spamming chat, whether for personal or commercial purposes, by disrupting the flow of conversation with repeated postings;
+Participating in any action which we reasonably believe does or may defraud any other player, including by scamming or social engineering;
+Using any unauthorized third party programs, including mods, hacks, cheats, scripts, bots, trainers and automation programs that interact with the Frawlsalla Services in any way, for any purpose, including any unauthorized third party programs that intercept, emulate, or redirect any communication relating to the Frawlsalla Services and any unauthorized third party programs that collect info about the Frawlsalla Services by reading areas of memory used by the Frawlsalla Services to store info;
+Accessing or attempting to access areas of the Frawlsalla Services that are not made available to the public;
+Selecting an account or user name that is falsely indicative of an association with Frawlsalla, contains personally identifying info, or that is offensive, defamatory, vulgar, obscene, sexually explicit, racially, ethnically, or otherwise objectionable. You may not use a misspelling or an alternative spelling to circumvent this restriction on name choices, like user names. Frawlsalla may modify any name which Frawlsalla reasonably believes violates this provision, without notification to you, and may take further disciplinary measures, including account termination for repeated violations;
+Non-participation, logging out or exiting a game during live game-play. Frawlsalla may track this data over time and issue a temporary ban when a player is determined to have left mid-game too many times. The length of the temporary ban will increase over time if a particular account continues to leave live game play;
+Playing on another person’s account or otherwise engaging in activity intended to “boost” an account’s status or rank;
+Inducing or encouraging others to breach the User Rules or these Terms; or
+Using the Frawlsalla Services for any business purpose without our express written consent or after we’ve asked you to stop using the Frawlsalla Services.
+
+
+THEREFORE I ACKNOWLEDGE AND AGREE THAT I HAVE READ AND UNDERSTAND THESE TERMS, AND THAT BY SELECTING THE “ACCEPT” BUTTON BELOW OR OTHERWISE USING OR ACCESSING THE FRAWLSALLA SERVICES, YOU ARE AGREEING TO BE BOUND BY THE TERMS AND CONDITIONS SET OUT IN THESE USER AGREEMENT.
+                    </textarea>
+                </div>
+            </div>
+        </main>
 
         <footer>
             <h3>For more information</h3>
