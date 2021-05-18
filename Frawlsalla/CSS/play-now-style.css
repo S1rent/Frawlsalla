@@ -1,0 +1,119 @@
+.content-register-image {
+    margin: 0 auto;
+    text-align: center;
+}
+
+#register-image {
+    max-width: 100%;
+    width: 50%;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.content-register-form h1 {
+    font-size: 40px;
+    text-align: center;
+    font-weight: 800;
+    margin-top: 20px;
+}
+
+.content-register-form {
+    margin: 0 auto;
+    margin-top: 100px;
+    width: 50%;
+    border: 3px solid black;
+    border-radius: 20px;
+    background-color: white;
+    padding-bottom: 20px;
+}
+
+.register-form-content {
+    margin: 0px 20px;
+}
+
+.register-form-content h2 {
+    margin-bottom: 0;
+}
+
+#name-field, #password-field, #email-field, #confirm-password-field, #phone-number-field {
+    margin-top: 10px;
+    height: 35px;
+    border-radius: 10px;
+    max-width: 100%;
+    width: 99%;
+    font-size: large;
+    transition: 0.1s ease-in-out;
+}
+
+.content-register-form input:focus {
+    outline: none;
+    border: 3px solid black;
+}
+
+.form-gender {
+    text-align: center;
+}
+
+.form-gender h2 {
+    margin-bottom: 10px;
+}
+
+.form-birthdate {
+    text-align: center;
+}
+
+.form-birthdate h2 {
+    margin-bottom: 10px;
+}
+
+#date-field {
+    margin-top: 10px;
+    height: 35px;
+    border-radius: 10px;
+    max-width: 100%;
+    width: 30%;
+    font-size: large;
+}
+
+#male {
+    margin-left: 50px;
+}
+
+.form-checkbox {
+    padding: 20px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+#agree-label {
+    font-size: large;
+}
+
+#user-agreement {
+    cursor: pointer;
+}
+
+#play-button {
+    padding: 10px 50px;
+    border-radius: 15px;
+    border: none;
+    text-transform: uppercase;
+    font-family: 'Quicksand', sans-serif;
+    font-weight: 800;
+    font-size: x-large;
+    background-image: linear-gradient(to left, #f2400d, #fff32a);
+    color: white;
+    cursor: pointer;
+    transition: 0.6s;
+    background-size: 150%;
+    margin: 0 auto;
+}
+
+#play-button:hover {
+    color: black;
+    background-position: right;
+}
+
+.form-submit {
+    text-align: center;
+}

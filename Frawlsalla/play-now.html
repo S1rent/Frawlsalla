@@ -6,6 +6,7 @@
 
         <link rel="preconnect" href="https://fonts.gstatic.com">
         <link rel="stylesheet" href="CSS/header-footer-style.css">
+        <link rel="stylesheet" href="CSS/play-now-style.css">
 
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
         <script src="JS/header.js"></script>
@@ -40,8 +41,72 @@
         </header>
 
         <main>
+            <div class="blank-space"></div>
             <div id="content">
-                
+                <div class="content-register-image">
+                    <img id="register-image" src="Assets/img-login.png">
+                </div>
+
+                <form class="content-register-form">
+                    <div class="register-form">
+                        <div class="register-form-header">
+                            <h1>Register</h1>
+                            <div class="custom-separator bg-black"></div>
+                        </div>
+                        <div class="register-form-content">
+                            <label id="name-label" for="name-field">
+                                <h2>Name</h2>
+                            </label>
+                            <input type="text" id="name-field" name="name" required>
+
+                            <label id="email-label" for="email-field">
+                                <h2>Email</h2>
+                            </label>
+                            <input type="email" id="email-field" name="email" required>
+
+                            <label id="phone-number-label" for="phone-number-field">
+                                <h2>Phone Number</h2>
+                            </label>
+                            <input type="tel" id="phone-number-field" name="phone-number" required>
+
+                            <div class="form-gender"> 
+                                <h2>Gender</h2>
+                                <input type="radio" id="female" name="gender" value="female">
+                                <label for="female">Female</label>
+                                
+                                <input type="radio" id="male" name="gender" value="male">
+                                <label for="male">Male</label><br>
+                            </div>
+
+                            <div class="form-birthdate">
+                                <label id="date-label" for="date-field">
+                                    <h2>Birthdate</h2>
+                                </label>
+                                <input type="date" id="date-field" name="date" required>
+                            </div>
+
+                            <label id="password-label" for="password-field">
+                                <h2>Password</h2>
+                            </label>
+                            <input type="password" id="password-field" name="password" required>
+
+                            <label id="confirm-password-label" for="confirm-password-field">
+                                <h2>Confirm Password</h2>
+                            </label>
+                            <input type="password" id="confirm-password-field" name="confirm-password" required>
+
+                            <div class="form-checkbox">
+                                <input type="checkbox" id="agree" name="agree" value="agree" required>
+                                <label id="agree-label" for="agree">I Accept the <span id="user-agreement"><strong>user agreement</strong>.</span></label>
+                            </div>
+
+                            <div class="form-submit">
+                                <button id="play-button" type="button">Play Now</button>
+                            </div>
+                        </div>
+                    </div>
+                </form>
+                <div class="blank-space-small"></div>
             </div>
         </main>
 

@@ -168,6 +168,10 @@ footer h3 {
     height: 3px;
 }
 
+.bg-black {
+    background-color: black;
+}
+
 main {  
     padding: 0;
     margin: 0; 
@@ -175,4 +179,12 @@ main {
 	background-position: right top, left top, right top, left top, right top;
     background-repeat: no-repeat;
     background-position-y: 0vh, 240vh, 480vh, 720vh, 960vh;
+}
+
+.blank-space {
+    height: 200px;
+}
+
+.blank-space-small {
+    height: 100px;
 }
