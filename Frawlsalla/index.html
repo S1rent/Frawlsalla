@@ -6,9 +6,11 @@
 
         <link rel="preconnect" href="https://fonts.gstatic.com">
         <link rel="stylesheet" href="CSS/header-footer-style.css">
+        <link rel="stylesheet" href="CSS/home-style.css">
 
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
         <script src="JS/header.js"></script>
+        <script src="JS/slider.js"></script>
 
         <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap" rel="stylesheet">
         <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
@@ -33,15 +35,207 @@
                         <li><a href="characters.html">Characters</a></li>
                         <li><a href="event.html">Events</a></li>
                         <li><a href="screenshots.html">Screenshots</a></li>
-                        <li><a href="register.html">Play Now</a></li>
+                        <li><a href="play-now.html">Play Now</a></li>
                     </ul>
                 </div>
             </nav>
         </header>
 
         <main>
+            <div class="blank-space"></div>
             <div id="content">
-                
+                <div id="content-image-slider">
+                    <ul class="content-slides">
+                        <li class="content-slide">
+                            <img src="Assets/Events/img-bloomhalla.jpg">
+                        </li>
+                        <li class="content-slide">
+                            <img src="Assets/Events/img-brawlhallidays.jpg">
+                        </li>
+                        <li class="content-slide">
+                            <img src="Assets/Events/img-luckothebrawl.jpg">
+                        </li>
+                        <li class="content-slide">
+                            <img src="Assets/Events/img-reno.jpg">
+                        </li>
+                        <li class="content-slide">
+                            <img src="Assets/Events/img-valhallentine.jpg">
+                        </li>
+                    </ul>
+                </div>
+
+                <br>
+                <div class="content-image-slider-indicator">
+                    <span class="dot"></span> 
+                    <span class="dot"></span> 
+                    <span class="dot"></span> 
+                    <span class="dot"></span> 
+                    <span class="dot"></span> 
+                </div>
+                <br>
+
+                <div class="content-video">
+                    <div class="video">
+                        <video id="trailer-video" controls>
+                            <source src="Assets/trailer-vid.mp4" type="video/mp4">
+                            Your browser does not support the video.
+                        </video>
+                    </div>
+                    <div class="description">
+                        <h1>Frawlsalla</h1>
+                        <p>
+                            Play locally with friends, fight in chaotic Free-For-All matches online and offline, <br>
+                            team up for 2v2 battles, or climb the Ranked ladder to Platinum and beyond. <br>
+                            There’s a little something for everyone. <br><br>
+                            If you’re looking to unwind with friends, <br>
+                            or if you’re aiming to carve your name into the pillars of the Frawlsalla Power Rankings, <br>
+                            you can play Frawlsalla however and whenever you want.
+                        </p>
+                        <a href="play-now.html"><button id="play-button" type="button">Play Now</button></a>
+                    </div>
+                </div>
+
+                <div class="content-feature">
+                    <aside id="aside-quality">
+                        <h1 id="aside-title">Features</h1>
+                        <div class="card-wrapper">
+                            <div class="quality-card">
+                                <img src="Assets/ic-offline.png">
+                                <h2>Offline</h2>
+                                <p>
+                                    Play Frawlsalla even without internet connection.<br><br>
+                                    Grind anytime, anywhere.
+                                </p>
+                            </div>
+                            <div class="quality-card">
+                                <img src="Assets/ic-wifi.png">
+                                <h2>Online</h2>
+                                <p>
+                                    Play Frawlsalla with the other players spread around the world.<br><br>
+                                    Grind together or get competitive against each other.
+                                </p>
+                            </div>
+                            <div class="quality-card">
+                                <img src="Assets/ic-shaka.png">
+                                <h2>Casual</h2>
+                                <p>
+                                    Play Frawlsalla in casual mode.<br><br>
+                                    No need to think about the competition in Frawlsalla.
+                                </p>
+                            </div>
+                            <div class="quality-card">
+                                <img src="Assets/ic-competitive.png">
+                                <h2>Competitive</h2>
+                                <p>
+                                    Play Frawlsalla in competitive mode.<br><br>
+                                    Grind up, Rank up, prove your the best player in the world.
+                                </p>
+                            </div>
+                        </div>
+                    </aside>
+                </div>
+
+                <div class="content-top-characters">
+                    <div class="content-top-characters-title">
+                        <h1>Characters Of The Month</h1>
+                        <a href="characters.html"><button type="button">View All Characters</button></a>
+                    </div>
+                    
+                    <div class="top-characters">
+                        <div class="character">
+                            <div class="sub-character">
+                                <img src="Assets/Characters/Hattori.png" alt="Hattori" width="200px">
+                                <p>
+                                    Hattori<br>
+                                    <strong>13.201.031 Vote(s)</strong>
+                                </p>
+                            </div>
+                        </div>
+    
+                        <div class="character">
+                            <div class="sub-character">
+                                <img src="Assets/Characters/Val.png" alt="Val" width="200px">
+                                <p>
+                                    Val<br>
+                                    <strong>11.156.115 Vote(s)</strong>
+                                </p>
+                            </div>
+                        </div>
+    
+                        <div class="character">
+                            <div class="sub-character">
+                                <img src="Assets/Characters/Artemis.png" alt="Artemis" width="200px">
+                                <div class="character-name">
+                                    <p>
+                                        Artemis<br>
+                                        <strong>10.857.978 Vote(s)</strong>
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="content-latest-events">
+                    <div class="content-latest-events-title">
+                        <h1>Latest Events</h1>
+                        <a href="events.html"><button type="button">View All Events</button></a>
+                    </div>
+                    
+                    <div class="latest-events">
+                        <div class="event">
+                            <div class="event-card-head">
+                                <img src="Assets/Events/img-bloomhalla.jpg">
+                            </div>
+                            <div class="event-card-footer">
+                                <h3>Bloomhalla</h3>
+                                <p>Date: <strong>28 April 2021</strong></p>
+                            </div>
+                        </div>
+
+                        <div class="event">
+                            <div class="event-card-head">
+                                <img src="Assets/Events/img-reno.jpg">
+                            </div>
+                            <div class="event-card-footer">
+                                <h3>New Legend - Reno</h3>
+                                <p>Date: <strong>14 April 2021</strong></p>
+                            </div>
+                        </div>
+
+                        <div class="event">
+                            <div class="event-card-head">
+                                <img src="Assets/Events/img-luckothebrawl.jpg">
+                            </div>
+                            <div class="event-card-footer">
+                                <h3>Luck O’ The Brawl - 2021</h3>
+                                <p>Date: <strong>17 March 2021</strong></p>
+                            </div>
+                        </div>
+
+                        <div class="event">
+                            <div class="event-card-head">
+                                <img src="Assets/Events/img-valhallentine.jpg">
+                            </div>
+                            <div class="event-card-footer">
+                                <h3>Valhallentine - 2021</h3>
+                                <p>Date: <strong>10 February 2021</strong></p>
+                            </div>
+                        </div>
+
+                        <div class="event last-item">
+                            <div class="event-card-head">
+                                <img src="Assets/Events/img-brawlhallidays.jpg">
+                            </div>
+                            <div class="event-card-footer">
+                                <h3>Brawlhallidays - 2020</h3>
+                                <p>Date: <strong>16 December 2020</strong></p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <br><br><br>
             </div>
         </main>
 

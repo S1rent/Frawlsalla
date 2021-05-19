@@ -52,6 +52,7 @@ header {
 }
 
 #header-navbar-menu-list {
+<<<<<<< HEAD
   display: flex;
   align-content: center;
   justify-content: center;
@@ -60,6 +61,16 @@ header {
   transition: 0.2s ease-out;
   font-weight: 800;
   font-size: large;
+=======
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    visibility: hidden;
+    height: 0;
+    transition: 0.2s ease-out;
+    font-weight: 800;
+    font-size: large;
+>>>>>>> 5411ca4ab3138859e3b736ebd4eb4f9ec018bf3c
 }
 
 #header-navbar-menu-list div {
@@ -80,6 +91,7 @@ header {
 }
 
 #header-navbar-dropdown-menu ul {
+<<<<<<< HEAD
   position: absolute;
   color: white;
   list-style-type: none;
@@ -100,6 +112,28 @@ header {
   background-color: black;
   height: auto;
   margin-left: 0;
+=======
+    position: absolute;
+    color: white;
+    list-style-type: none;
+    padding: 0;
+    height: 0;
+    visibility: hidden;
+    transition: all .5s ease;
+    width: 200px;
+    padding: 0;
+    margin: 0;
+    top: 100%;
+    text-align: left;
+}
+
+#header-navbar-dropdown-menu:hover ul {
+    visibility: visible;
+    transform: translateY(0);
+    background-color: black;
+    height: auto;
+    margin-left: 0;
+>>>>>>> 5411ca4ab3138859e3b736ebd4eb4f9ec018bf3c
 }
 
 #header-navbar-dropdown-menu li {
@@ -173,6 +207,7 @@ html {
   height: 3px;
 }
 
+<<<<<<< HEAD
 main {
   padding: 0;
   margin: 0;
@@ -181,3 +216,25 @@ main {
   background-repeat: no-repeat;
   background-position-y: 0vh, 200vh, 400vh, 600vh, 800vh;
 }
+=======
+.bg-black {
+    background-color: black;
+}
+
+main {  
+    padding: 0;
+    margin: 0; 
+    background-image: url(../Assets/bg-01.png), url(../Assets/bg-02.png) , url(../Assets/bg-01.png), url(../Assets/bg-02.png) , url(../Assets/bg-01.png);
+	background-position: right top, left top, right top, left top, right top;
+    background-repeat: no-repeat;
+    background-position-y: 0vh, 240vh, 480vh, 720vh, 960vh;
+}
+
+.blank-space {
+    height: 200px;
+}
+
+.blank-space-small {
+    height: 100px;
+}
+>>>>>>> 5411ca4ab3138859e3b736ebd4eb4f9ec018bf3c
