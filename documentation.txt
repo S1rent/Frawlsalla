@@ -10,3 +10,8 @@
 10 Mei 2021
 ==========
 |-> Philip, Refactoring Page Directory & Code
+
+19 mei 2021
+==========
+|-> Fernando, Fix characters css responsive
+|-> Fernando, make screenshots page
