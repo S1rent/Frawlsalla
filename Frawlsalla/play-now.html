@@ -73,10 +73,10 @@
 
                             <div class="form-gender"> 
                                 <h2>Gender</h2>
-                                <input type="radio" id="female" name="gender" value="female">
+                                <input type="radio" id="female" name="gender" value="female" required>
                                 <label for="female">Female</label>
                                 
-                                <input type="radio" id="male" name="gender" value="male">
+                                <input type="radio" id="male" name="gender" value="male" required>
                                 <label for="male">Male</label><br>
                             </div>
 
@@ -102,8 +102,10 @@
                                 <label id="agree-label">I Accept the <span id="user-agreement"><strong>user agreement</strong>.</span></label>
                             </div>
 
+                            <span id="error-msg">asd</span>
+
                             <div class="form-submit">
-                                <button id="play-button" onclick="validate()">Play Now</button>
+                                <button id="play-button" onclick="validate()" type="button">Play Now</button>
                             </div>
                         </div>
                     </div>

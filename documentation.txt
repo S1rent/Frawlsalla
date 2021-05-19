@@ -13,7 +13,6 @@
 |-> Philip, Fix styling css error (conflict)
 
 10 Mei 2021
-<<<<<<< HEAD
 ==========
 |-> Philip, Refactoring Page Directory & Code
 
@@ -21,8 +20,6 @@
 ==========
 |-> Fernando, Fix characters css responsive
 |-> Fernando, make screenshots page
-=======
-===========
 |-> Philip, Refactoring Page Directory & Code
 
 12 Mei 2021
@@ -46,4 +43,3 @@
 ===========
 |-> Philip, Menyelesaikan Register Page
 |-> Philip, Membuat Design Home Di Photoshop
->>>>>>> 5411ca4ab3138859e3b736ebd4eb4f9ec018bf3c
