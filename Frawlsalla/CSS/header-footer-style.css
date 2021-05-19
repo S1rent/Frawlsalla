@@ -55,7 +55,7 @@ header {
     display: flex;
     align-content: center;
     justify-content: center;
-    opacity: 0;
+    visibility: hidden;
     height: 0;
     transition: 0.2s ease-out;
     font-weight: 800;
@@ -85,7 +85,7 @@ header {
     list-style-type: none;
     padding: 0;
     height: 0;
-    opacity: 0;
+    visibility: hidden;
     transition: all .5s ease;
     width: 200px;
     padding: 0;
@@ -95,7 +95,7 @@ header {
 }
 
 #header-navbar-dropdown-menu:hover ul {
-    opacity: 1;
+    visibility: visible;
     transform: translateY(0);
     background-color: black;
     height: auto;

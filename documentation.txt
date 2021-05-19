@@ -10,7 +10,7 @@
 
 9 Mei 2021
 ==========
-|-> Philip, Fix styling css error (karena conflict)
+|-> Philip, Fix styling css error (conflict)
 
 10 Mei 2021
 ===========
@@ -18,13 +18,22 @@
 
 12 Mei 2021
 ===========
-|-> Philip, Creating Home Page
+|-> Philip, Membuat Home Page
 
 14 Mei 2021
 ===========
-|-> Philip, Creating Responsive Homepage
+|-> Philip, Membuat Responsive Homepage
 
 17 Mei 2021
 ===========
-|-> Philip, Completing Home Page
-|-> Philip, Creating Register Page
+|-> Philip, Menyelesaikan Home Page
+|-> Philip, Membuat Register Page
+
+18 Mei 2021
+===========
+|-> Philip, Melanjutkan Making Register Page
+
+19 Mei 2021
+===========
+|-> Philip, Menyelesaikan Register Page
+|-> Philip, Membuat Design Home Di Photoshop
