@@ -1,13 +1,9 @@
-div {
-    display: block;
-}
-
 hr {
     border: 1px solid black;
 }
 
 #content {
-    margin: 12% 5% 10% 5%;
+    margin: 200px 5% 10% 5%;
     display: flex;
 }
 
@@ -16,6 +12,7 @@ hr {
     width: 60%;
     flex-wrap: wrap;
     justify-content: center;
+    border: 1px solid black;
     padding: 0% 5% 0% 3%;
 }
 
@@ -45,9 +42,11 @@ hr {
 }
 
 #recent-news {
-    /* background-color: blue; */
+    background-color: cornsilk;
     width: 25%;
+    height:fit-content;
     flex-wrap: wrap;
+    border: 1px solid black;
     padding: 0% 3% 0% 2%;
 }
 
@@ -79,4 +78,18 @@ hr {
 .recent-news-box-date {
     font-size: 16px;
     color: black;
+}
+
+@media screen and (max-width: 900px){
+    #content{
+        display: block;
+    }
+    #event-details{
+        width: 90%;
+    }
+    #recent-news{
+        width: 90%;
+        margin-top: 30px;
+        padding: 0% 5% 3% 3%;
+    }
 }

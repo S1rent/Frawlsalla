@@ -1,0 +1,399 @@
+<!DOCTYPE html>
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link rel="stylesheet" href="CSS/header-footer-style.css">
+    <link rel="stylesheet" href="CSS/event-details-style.css">
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="JS/header.js"></script>
+
+    <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    
+    <title>Welcome to Bloomhalla!</title>
+</head>
+<body>
+    <header>
+        <nav id="header-navbar">
+            <div></div>
+            <a class="logo" href="index.html"><img id="icn-logo" src="Assets/icn-logo.png"></a>
+            <div class="header-navbar-menu">
+                <button onclick="toggleMenu()"></button>
+            </div>
+        </nav>
+        <div class="gradient-background custom-separator"></div>
+        <nav id="header-navbar-menu-list">
+            <div id="header-navbar-dropdown-menu">
+                <span>Menu &#9660;</span>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="characters.html">Characters</a></li>
+                    <li><a href="event.html">Events</a></li>
+                    <li><a href="screenshots.html">Screenshots</a></li>
+                    <li><a href="play-now.html">Play Now</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <div id="content">
+            <div id="event-details">
+                <div id="event-details-header">
+                    <div id="event-details-header-title">
+                        <b>VALHALLENTINE'S 2021 STARTS NOW!</b>
+                    </div>
+                    <div id="event-details-header-date">
+                        FEB 10, 2021 | PATCH NOTES, WEEKLY ROTATION
+                    </div>
+                </div>
+                <div id="event-details-banner">
+                    <img src="./Assets/Events/img-valhallentine.jpg">
+                </div>
+                <div id="event-details-text">
+                    <p>
+                        Love is in the air! Valhallentine’s 2021 begins with exclusive 
+                        seasonal items including all new Skins for Kaya and Dusk, the Lovestruck 
+                        2021 Podium, eleven other seasonal Valentine-themed Skins, Lovestruck Colors, 
+                        and much more! Just follow the hearts in Mallhalla. Amidst these flowery 
+                        festivities, Magyar makes a haunting debut in the free-to-play Legend rotation, 
+                        and Switchcraft 2v2 is featured as Brawl of the Week.
+                    </p>
+                    <p>
+                        To catch the latest Brawlhalla news and content, be sure to 
+                        follow us on Twitter, Twitch, Facebook, YouTube, Instagram, and Discord!
+                    </p>
+                    <h2>
+                        Happy Valhallentine's Day 2021!
+                    </h2>
+                    <p>
+                        It’s the season of love – we’re celebrating with a themed UI Takeover 
+                        complete with all new main menu music, a whole bouquet of exclusive 
+                        seasonal items, and +250 Bonus Gold per login. This Valhallentine’s, 
+                        let’s take a moment to think of the ones we cherish most! Sure, there might 
+                        be some accidental knockouts in 2v2 and Brawldown, but in the end, we remember 
+                        this well said poem from our prior celebrations –
+                    </p>
+                    <p>
+                        <i>Landmines are red,<br>Bombs are blue,<br>I think you're a knockout,<br>Let's play 2v2!</i>
+                    </p>
+                    <p>
+                        See the list below for all the Valhallentine treats:
+                    </p>
+                    <h4>Legend Skins</h4>
+                    <p>
+                        Red Rose Kaya – “Her arrows never miss their target!”
+                    </p>
+                    <ul>
+                        <li>This curious forest sprite is ready to spread mischief with her 
+                            Rosewood Spear and Everlasting Shot Bow.</li>
+                    </ul>
+                    <p>
+                        Date Night Dusk – “This man of mystery is ready to break some hearts.”
+                    </p>
+                    <ul>
+                        <li>The eligible elven bachelor is going out on the town with his 
+                            Crush Killer Spear and Love Sick Orb.</li>
+                    </ul>
+                    <p>
+                        Cho-Kor-Late – “With a cherry on top!”
+                    </p>
+                    <ul>
+                        <li>He may look sweet as candy, but his Sucker Punch is a Jawbreaker</li>
+                    </ul>
+                    <p>
+                        Red Romance Volkov – “He’d love to have you for dinner…”
+                    </p>
+                    <ul>
+                        <li>Fall into a Love Affair with this Heartthrob of a vampire.</li>
+                    </ul>
+                    <p>
+                        Lovelaced Ada – “This sweet romance will leave you hurting."
+                    </p>
+                    <ul>
+                        <li>She loves you… She loves you not… she definitely loves you not.</li>
+                    </ul>
+                    <p>
+                        Secret Admirer Zariel – “Would you be my Valentine?”
+                    </p>
+                    <ul>
+                        <li>This divine warrior will tug on your Heartstrings with their Love’s Embrace</li>
+                    </ul>
+                    <p>
+                        Heartbreaker Barraza – “Giving love a bad name.”
+                    </p>
+                    <ul>
+                        <li>He’ll take A Shot at Love and Axe You Out!</li>
+                    </ul>
+                    <p>
+                        Suitor Lucien – “If looks could kill (and they do).”
+                    </p>
+                    <ul>
+                        <li>This Beautiful & Deadly beau is just handing out Heartaches</li>
+                    </ul>
+                    <p>
+                        Heart of Hathor Mirage – “No better way to be welcomed to the afterlife."
+                    </p>
+                    <ul>
+                        <li>Beware this alluring undertaker, armed with the Tines of the Heart and Uraeus’ Fang.</li>
+                    </ul>
+                    <p>
+                        Demon Bride Hattori – “They say marriage changes you.”
+                    </p>
+                    <ul>
+                        <li>Bonus: Horrific visage with Hattori’s expressions.</li>
+                        <li>The underworld hath no fury like a warrior woman scorned. 
+                            Watch out for Falling Blossoms or you’ll get The Final Gift.</li>
+                    </ul>
+                    <p>
+                        Eternal Love Brynn – “Fall in love with her forever, and ever, and ever."
+                    </p>
+                    <ul>
+                        <li>This Valkyrie may seem like a Heartbreaker, but she’s really a Heartseeker.</li>
+                    </ul>
+                    <p>
+                        Classy Roland – “A rose in his teeth, eleven more in his chest hair.”
+                    </p>
+                    <ul>
+                        <li>Looks like chivalry is still very much alive, This irresistible Knight 
+                            is armed with his trusty Love Letter Opener and Fancy Lance.</li>
+                    </ul>
+                    <p>
+                        Date Night Nai – “She even likes the same bands you do.”
+                    </p>
+                    <ul>
+                        <li>Love Hurts with this punk rock queen. The Blackhearts are her Katars, not her band…</li>
+                    </ul>
+                    <h4>Podium</h4>
+                    <p>
+                        Lovestruck 2021 – ”Owl be yours this Valentine’s”
+                    </p>
+                    <ul>
+                        <li>Now with sound FX!</li>
+                        <li>Let the love soar with this new design.</li>
+                    </ul>
+                    <h4>Weapon Skin</h4>
+                    <p>
+                        Cupid’s Bow – “Shot through the heart!”
+                    </p>
+                    <ul>
+                        <li>Exclusive Valhallentine’s Bow Weapon Skin.</li>
+                    </ul>
+                    <h4>Colors</h4>
+                    <p>
+                        Lovestruck Colors
+                    </p>
+                    <ul>
+                        <li>These pink, red, and white colors are sure to be a KO!</li>
+                        <li>Available for every Legend with your hard-earned Gold.</li>
+                    </ul>
+                    <h4>KO Effect</h4>
+                    <p>
+                        XO KO – “KO-ed in the name of love.”
+                    </p>
+                    <ul>
+                        <li>Bonus: Displays your Legend’s face on each Cherub!</li>
+                    </ul>
+                    <h4>Avatars</h4>
+                    <p>
+                        Chocolate Bear’dvar Avatar – “Nothing says love like chocolate… and bears.”
+                    </p>
+                    <ul>
+                        <li>Purchasable with your hard-earned Gold!</li>
+                    </ul>
+                    <p>
+                        Candy Hearts Avatar – “Aw you’re sweet! And kind of chalky.”
+                    </p>
+                    <ul>
+                        <li>An animated Avatar!</li>
+                    </ul>
+                    <h2>Brawl of the Week - Switchcraft 2v2</h2>
+                    <p>
+                        Even more Switchcraft mayhem! Get a teammate and jump into this crazy 2v2 
+                        Stock battle. Pick 3 Legends and watch their weapons and sigs get jumbled up. 
+                        Battle equally scrambled opponents and try to knock out all 6 of their 
+                        Stocks first to win!
+                    </p>
+                    <ul>
+                        <li>2v2 Teams</li>
+                        <li>3 Stocks for each player</li>
+                        <li>Last team standing wins!</li>
+                    </ul>
+                    <h2>Mallhalla</h2>
+                    <p>
+                        Valhallentines items are in Mallhalla!
+                    </p>
+                    <ul>
+                        <li>Find the Valhallentines items by following the hearts in Mallhalla.</li>
+                    </ul>
+                    <p>
+                        New items added with Patch 5.03.
+                    </p>
+                    <ul>
+                        <li>Sky Pirate Sidra</li>
+                        <li>Bitpunk Cassidy</li>
+                        <li>Dumbbell Curls Emote</li>
+                        <li>Fu Lion Charm Orb Skin</li>
+                        <li>Dragon’s Fury Greatsword Skin</li>
+                        <li>Darkheart Claymore Greatsword Skin</li>
+                        <li>More Country Flag Avatars!</li>
+                    </ul>
+                    <p>
+                        The Solidarity Emote benefiting Campaign Zero is still available.
+                    </p>
+                    <ul>
+                        <li>To find out more information about this non-profit organization, 
+                            check out www.joincampaignzero.org.</li>
+                    </ul>
+                    <p>
+                        Looking for a certain chest?
+                    </p>
+                    <ul>
+                        <li>We’re rapidly rotating through chests, so check out the in-game 
+                            timer to know when the next chest will rotate.</li>
+                    </ul>
+                    <p>
+                        Check out the new Sale items!
+                    </p>
+                    <h2>Test Features</h2>
+                    <p>
+                        The Smoke Trails visual effect Test Features were updated based on 
+                        community feedback. The time the Smoke Trails effect appears on screen 
+                        has been shortened in order to reduce their visual footprint during battle.
+                    </p>
+                    <p>
+                        Test Features are available to try out in the Experimental queue 
+                        and in Custom Lobbies with Test Features enabled.
+                    </p>
+                    <p>
+                        Please let us know your experience with these Test Features on Twitter and Discord! 
+                        Check out brawlhalla.com/test-features for more information.
+                    </p>
+                    <h2>Legend Rotation</h2>
+                    <p>
+                        The free-to-play Legend rotation for this week includes Magyar in their debut appearance 
+                        alongside: Cassidy, Ulgrim, Fait, Onyx, Ember, Caspian, Sidra, and Dusk.
+                    </p>
+                    <ul>
+                        <li>Magyar– As the last remaining member of the Batavian Strazci army and 
+                            wielding the strength of a 100 elite knights, this spectral guardian has come 
+                            for the glory of battle with their Greatsword and Hammer!</li>
+                        <li>Cassidy – The Marshal of the Old West is ready to instill justice into 
+                            Valhalla with both Hammer and Blasters!</li>
+                        <li>Ulgrim – Equipped with flawless Ivaldi creations, his Axe and Rocket Lance, 
+                            the legendary blacksmith forges his way into battle!</li>
+                        <li>Fait – Speaking to the stars and using glimpses of the future, 
+                            Fait battles for good with her Scythe and Orb!</li>
+                        <li>Onyx – The powerful Guardian and Protector of Castle Batavia, 
+                            Onyx has been offered a place in Valhalla and now defends it ruthlessly 
+                            with her Cannon and Gauntlets.</li>
+                        <li>Ember – This quick and dexterous elf does battle in Valhalla with Bow, 
+                            Katars and her two companions: a wolf named Ash and her raven named Yarra.</li>
+                        <li>Caspian – Led by his showmanship and thirst for danger, he has come 
+                            to Valhalla armed with Katars and Gauntlets to put on a show!</li>
+                        <li>Sidra – The Corsair Queen, known for her legendary and fearless raids, 
+                            is prepared to fight with her Sword and Cannon!</li>
+                        <li>Dusk – Wielding his Spear and a powerful Orb, carved from stone and magic, 
+                            Dusk seeks to spread chaos throughout Valhalla.</li>
+                    </ul>
+                </div>
+            </div>
+            <div id="recent-news">
+                <div id="recent-news-title">
+                    <b>RECENT NEWS</b>
+                </div>
+                <a href="event-1.html">
+                    <div class="recent-news-box">
+                        <img src="./Assets/Events/img-bloomhalla.jpg">
+                        <div class="recent-news-box-details">
+                            <div class="recent-news-box-title">
+                                <b>Welcome to Bloomhalla!</b>
+                            </div>
+                            <div class="recent-news-box-date">
+                                April 28, 2021
+                            </div>
+                        </div>
+                    </div>
+                </a>
+                <hr>
+                <a href="event-2.html">
+                    <div class="recent-news-box">
+                        <img src="./Assets/Events/img-reno.jpg">
+                        <div class="recent-news-box-details">
+                            <div class="recent-news-box-title">
+                                <b>New Legend Reno is Ready to Battle - Patch 5.06</b>
+                            </div>
+                            <div class="recent-news-box-date">
+                                Apr 14, 2021
+                            </div>
+                        </div>
+                    </div>
+                </a>
+                <hr>
+                <a href="event-3.html">
+                    <div class="recent-news-box">
+                        <img src="./Assets/Events/img-luckothebrawl.jpg">
+                        <div class="recent-news-box-details">
+                            <div class="recent-news-box-title">
+                                <b>Luck o' the Brawl 2021 Starts Today!</b>
+                            </div>
+                            <div class="recent-news-box-date">
+                                Mar 17, 2021
+                            </div>
+                        </div>
+                    </div>
+                </a>
+                <hr>
+                <a href="event-5.html">
+                    <div class="recent-news-box">
+                        <img src="./Assets/Events/img-brawlhallidays.jpg">
+                        <div class="recent-news-box-details">
+                            <div class="recent-news-box-title">
+                                <b>Happy Brawlhallidays 2020!</b>
+                            </div>
+                            <div class="recent-news-box-date">
+                                Dec 16, 2020
+                            </div>
+                        </div>
+                    </div>
+                </a>
+            </div>
+        </div>
+    </main>
+
+    <footer>
+        <h3>For more information</h3>
+        <div class="footer-social-media">
+            <a href="https://www.instagram.com/brawlhallafr/" target="_blank">
+                <img id="footer-image-icon" src="Assets/instagram.png">
+            </a>
+            <a href="https://twitter.com/brawlhalla" target="_blank">
+                <img id="footer-image-icon" src="Assets/twitter.png">
+            </a>
+            <a href="https://store.steampowered.com/app/291550/Brawlhalla/" target="_blank">
+                <img id="footer-image-icon" src="Assets/steam.png">
+            </a>
+            <a href="https://www.facebook.com/Brawlhalla/" target="_blank">
+                <img id="footer-image-icon" src="Assets/facebook.png">
+            </a>
+            <a href="https://www.youtube.com/user/Brawlhalla" target="_blank">
+                <img id="footer-image-icon" src="Assets/youtube.png">
+            </a>
+        </div>
+
+        <br>
+        <div class="gradient-background custom-separator"></div>
+        <h3>Created by</h3>
+        <h3>2301856125 - Philip Indra Prayitno</h3>
+        <h3>2301857241 - Richard Aldy</h3>
+        <h3>2301889275 - Fernando Chai</h3>
+
+        <div class="gradient-background custom-separator"></div>
+        <h3>© 2021 Frawlsalla | All Rights Reserved</h3>
+        <h3>Legal Privacy Policy</h3>
+    </footer>
+</body>
+</html>
