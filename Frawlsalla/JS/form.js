@@ -245,4 +245,6 @@ function resetAllBorder() {
     document.getElementById('phone-number-field').style.borderColor = 'black';
     document.getElementById('password-field').style.borderColor = 'black';
     document.getElementById('confirm-password-field').style.borderColor = 'black';
+    document.getElementById('date-field').style.borderColor = 'black';
+    document.getElementById('agree-label').style.borderColor = 'black';
 }

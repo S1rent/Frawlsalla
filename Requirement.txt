@@ -22,28 +22,28 @@ Project Overview
 ~ Requirement ~
 Frawlsalla -> Fighting Game
 
-1. Logo (Layer jangan di merge di Photoshop) [Done]
+1. Logo (Layer jangan di merge di Photoshop) [Done] [DONE]
 2. Homepage Blueprint (Layer jangan di merge jg harusnya)
 |-> Harus ada header, navigation, content, dan footer.
-3. Screenshot gameplay
+3. Screenshot gameplay [DONE]
 4. Events
-5. Characters
-6. ETC
+5. Characters [DONE]
+6. ETC [DONE]
 7. Bahasa Inggris / Indonesia (Gaboleh 22nya)  [DONE]
 8. Css box positioning concept  [DONE]
 9. Gaboleh internal / inlince CSS  [DONE]
-10. Responsive
+10. Responsive [DONE]
 11. Organize files pake subdirectory [DONE]
-12. References
+12. References [DONE]
 13. jQuery 3.5.1 [DONE]
 
 ~ Pages ~
-- Home Page
-|-> Informasi tentang game, dan fitur.
-|-> Frawlsalla events highlight (Pake image slider)
+- Home Page [DONE]
+|-> Informasi tentang game, dan fitur. [DONE]
+|-> Frawlsalla events highlight (Pake image slider) [DONE]
 
-- Screenshot Page
-|-> Screenshot game
+- Screenshot Page [DONE]
+|-> Screenshot game [DONE]
 
 - Events Page
 |-> Event Title
@@ -53,10 +53,10 @@ Frawlsalla -> Fighting Game
 - Characters Page [Done]
 |-> Characters Image and Name [Done]
 
-- Play Now
-|-> Registration
-|-> Name, Email, Password, Gender, Customer Terms & Conditions.
-|-> 5 Kinds of Form Components & Validation (Javascript) no regular expression
+- Play Now [DONE]
+|-> Registration [DONE]
+|-> Name, Email, Password, Gender, Customer Terms & Conditions. [DONE]
+|-> 5 Kinds of Form Components & Validation (Javascript) no regular expression [DONE]
 
 Referensi website
 https://www.brawlhalla.com/
