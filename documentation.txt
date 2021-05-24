@@ -43,3 +43,18 @@
 ===========
 |-> Philip, Menyelesaikan Register Page
 |-> Philip, Membuat Design Home Di Photoshop
+
+21 Mei 2021
+===========
+|-> Richard, Membuat event details page untuk event 1
+
+22 Mei 2021
+===========
+|-> Richard, Membuat event details page untuk event 2, 3, dan 4
+|-> Richard, Menambahkan responsive css untuk event details page
+
+24 Mei 2021
+===========
+|-> Richard, Membuat event details page untuk event 5
+|-> Richard, Membuat event page
+|-> Richard, Mengubah responsive css untuk event details
