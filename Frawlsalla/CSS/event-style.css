@@ -1,0 +1,54 @@
+#content {
+    margin: 200px 5% 10% 5%;
+    width: 90%;
+}
+
+#events-header {
+    width: 100%;
+    font-size: 40px;
+    text-align: center;
+}
+
+#events-container{
+    width: 90%;
+    display: flex;
+    padding: 2% 5% 0% 5%;
+    flex-wrap: wrap;
+    text-align: left;
+    background-color: white;
+}
+
+.event-detail{
+    margin: 1% auto;
+    width: 30%;
+}
+
+.event-banner img {
+    width: 100%;
+}
+
+.event-name {
+    padding-top: 3%;
+    padding-bottom: 3%;
+}
+
+.event-name a{
+    color: black;
+    font-size: 24px;
+}
+
+.event-information {
+    font-size: 12px;
+}
+
+@media screen and (max-width: 900px){
+    .event-detail{
+        width: 45%;
+    }
+}
+
+@media screen and (max-width: 500px){
+    .event-detail{
+        width: 90%;
+    }
+}
