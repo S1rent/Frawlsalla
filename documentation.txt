@@ -1,61 +1,63 @@
-22 Maret 2021
+22 March 2021
 =============
-|-> Richard, Membuat Logo
-|-> Philip, Mengganti Design Logo
-|-> Philip, Membuat Design Home Di Photoshop
+|-> Richard, Create Logo
+|-> Philip, Change Logo Design
+|-> Philip, Creating Home Design In Photoshop
 
-4 Mei 2021
+4 May 2021
 ==========
-|-> Philip, Membuat Header & Footer
-|-> Philip, Membuat Template Yang Dipakai Untuk Semua Page
+|-> Philip, Create Header & Footer
+|-> Philip, Create Template For All Pages
 
-9 Mei 2021
+9 May 2021
 ==========
 |-> Philip, Fix styling css error (conflict)
 
-10 Mei 2021
+10 May 2021
 ==========
 |-> Philip, Refactoring Page Directory & Code
 
-19 mei 2021
+19 May 2021
 ==========
-|-> Fernando, Fix characters css responsive
-|-> Fernando, make screenshots page
+|-> Fernando, Fix characters CSS responsive
+|-> Fernando, Make screenshots page
 |-> Philip, Refactoring Page Directory & Code
 
-12 Mei 2021
+12 May 2021
 ===========
-|-> Philip, Membuat Home Page
+|-> Philip, Create Home Page
 
-14 Mei 2021
+14 May 2021
 ===========
-|-> Philip, Membuat Responsive Homepage
+|-> Philip, Create Responsive Homepage
 
-17 Mei 2021
+17 May 2021
 ===========
-|-> Philip, Menyelesaikan Home Page
-|-> Philip, Membuat Register Page
+|-> Philip, Finishing Home Page
+|-> Philip, Create Register Page
 
-18 Mei 2021
+18 May 2021
 ===========
-|-> Philip, Melanjutkan Making Register Page
+|-> Philip, Continue Making Register Page
 
-19 Mei 2021
+19 May 2021
 ===========
-|-> Philip, Menyelesaikan Register Page
-|-> Philip, Membuat Design Home Di Photoshop
+|-> Philip, Finishing Register Page
 
-21 Mei 2021
+21 May 2021
 ===========
-|-> Richard, Membuat event details page untuk event 1
+|-> Richard, Create event details page for event #1
 
-22 Mei 2021
+22 May 2021
 ===========
-|-> Richard, Membuat event details page untuk event 2, 3, dan 4
-|-> Richard, Menambahkan responsive css untuk event details page
+|-> Richard, Create event details page for event #2, #3, and #4
+|-> Richard, Create responsive CSS for event detail page
 
-24 Mei 2021
+24 May 2021
 ===========
-|-> Richard, Membuat event details page untuk event 5
-|-> Richard, Membuat event page
-|-> Richard, Mengubah responsive css untuk event details
+|-> Richard, Create event details page for event #5
+|-> Richard, Create event list page
+|-> Richard, Change responsive CSS for event details
+|-> Philip, Adjust event CSS style
+|-> Philip, Adjust event wording
+|-> Philip, Integrating event in slider and recent events to event details page
