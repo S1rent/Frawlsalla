@@ -83,6 +83,12 @@
     padding: 20px;
     margin: 0 auto;
     text-align: center;
+    font-size: large;
+}
+
+#agree {
+    width: 15px;
+    height: 15px;
 }
 
 #agree-label {
@@ -116,6 +122,12 @@
 
 .form-submit {
     text-align: center;
+}
+
+#error-msg {
+    font-weight: 600;
+    font-size: large;
+    visibility: hidden;
 }
 
 /* Modal */
