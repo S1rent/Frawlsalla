@@ -8,6 +8,7 @@
 ==========
 |-> Philip, Create Header & Footer
 |-> Philip, Create Template For All Pages
+|-> Fernando, Create Characters Page
 
 9 May 2021
 ==========
