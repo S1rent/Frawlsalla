@@ -177,6 +177,7 @@ function checkBirthDate() {
 
     var dateSplit = birthDate.split("-");
     var dateNow = new Date()
+    console.log(birthDate)
 
     var selectedYear = parseInt(dateSplit[0]);
     var selectedMonth = parseInt(dateSplit[1]);
@@ -186,11 +187,14 @@ function checkBirthDate() {
     var currentMonth = dateNow.getMonth()+1;
     var currentDay = dateNow.getDate();
 
-    if((currentYear - selectedYear) == 12 && currentMonth == selectedMonth && selectedDay < currentDay) {
+    if((currentYear - selectedYear) == 12 && currentMonth == selectedMonth && selectedDay > currentDay) {
+        console.log("A")
         return 2;
-    } else if((currentYear - selectedYear) == 12 && currentMonth > selectedMonth) {
+    } else if((currentYear - selectedYear) == 12 && currentMonth < selectedMonth) {
+        console.log("B")
         return 2;
     } else if((currentYear - selectedYear) < 12) {
+        console.log("C")
         return 2;
     }
     return 0;
