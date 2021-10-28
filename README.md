@@ -1,4 +1,5 @@
 This project is a submission for the Human and Computer Interaction Lab Class Final Project
+In Semester 3
 
 Group Members
 ==================================
